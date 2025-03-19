@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /logs
+Disallow: /scripts
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /webstat
+
+# запретить всем роботам индексировать ссылки,
+#которые начинаются с /news
+
+

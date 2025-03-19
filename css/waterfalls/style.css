@@ -1,0 +1,517 @@
+﻿/*
+Theme Name: Forest Waterfalls
+
+Theme URI: http://freewomensblogs.com
+
+Description: Переведено на сайте <a href="http://xtemplate.ru" title="Оригинальные темы для wp" target="_blank">xtemplate.ru</a>
+
+Version: 1.0
+
+*/
+
+body {
+	font: 12px arial,verdana,sans-serif;
+	padding:0px;
+	margin:0px;
+	background-color:#093216;
+}
+#page {
+	width: 1004px;
+	margin: 0 auto;
+}
+#wrap {
+	 clear: both;     
+	width: 1004px;
+	padding:0;	
+	
+}
+#content-container {
+	float: left;
+	width: 1004px;
+	padding:0px;	
+	background:url(../../images/waterfalls/content-bg.gif) repeat-y center;
+	
+}
+
+#hidden_block {display: none;}
+
+.content {
+	float: left;
+	width: 984px;
+	padding:0px;
+	margin-left:10px;
+	margin-top:-70px;
+	position:relative;
+    z-index: 100;
+	
+}
+
+.bgbottom {   
+	width: 984px;
+	padding:0;
+	height:8px;
+	position:relative;
+	clear:both;
+	background:url(../../images/waterfalls/content-bottom.gif) no-repeat bottom center;
+}
+.header {
+	height:441px;
+	width: 100%;
+	padding:0;
+	margin:0;
+	float:none;
+}
+.header h1
+{
+font:46px gramond, 'times new roman';
+color:#BD672E;
+text-align:left;
+padding-left:60px;
+padding-top:255px;
+}
+.header h1, h1 a, h1 a:hover, h1 a:visited {
+text-decoration: none;
+margin:0;
+color:#FFFFFF;
+}
+.subtitle {
+	font-family: arial;
+	padding-left:100px;
+	font:15px arial;
+    font-weight: bold;
+	text-align:left;
+    color: #FFFFFF;
+
+}
+#footer {	
+	font: 12px arial,verdana,sans-serif;
+	text-align:center;
+	height:50px;
+	float:left;
+	position:relative;
+	width:100%;
+	background:url(../../images/waterfalls/footer.gif) no-repeat bottom center;
+	padding-top: 15px;
+}
+.footerlinks 
+{
+	color:#6D8735;
+	text-align:center;
+	height:39px;
+	float:left;
+	width:800px;
+	margin-left:100px;
+
+}
+.footerlinks  a
+{
+	color:#909E72;
+	text-decoration:none;
+
+}
+
+/* General Header Styles */
+h2 {
+	margin-top:0;
+	font-size:16px;	
+}
+h3 {
+	margin:0;
+	font-size:14px;	
+}
+
+
+/* Post Related */
+h2 a:hover, h2 a:visited, h2 a {
+	text-decoration:none;
+}
+.post-container
+{
+	float:left; 
+	width:650px; 	
+	margin-left:35px;
+}
+.post {
+	width:650px;
+	margin:0;
+	padding-top:0;
+	padding-right:16px;
+	color:#CBBA93;
+	float:left;
+	display:block;
+	margin-bottom:30px;
+
+	
+	
+}
+.posttop {
+	width:650px;
+	height:80px;
+	color:#CBBA93;
+	padding-top:10px;
+	background:url(../../images/watrfalls/post-top.gif) no-repeat top;
+
+
+}
+
+.post p {
+	margin:0px;
+}
+
+.posttop h2 {
+	font: 26px gramond,'times new roman';
+	text-align:left;
+	overflow:visible;
+	margin-bottom:0;
+	padding:0;
+	float:left;
+}
+.posttop h2 a {
+	color:#CBBA93;
+	font-weight:normal;	
+}
+.post a:hover {
+	color:#CBBA93;
+}
+.postinfo
+{
+height:25px;
+width:500px;
+float:left;
+color:#EFEEF3;
+text-align:left;
+margin-top:0;
+font:11px verdana;
+
+}
+.postinfo a
+{
+text-decoration:none;
+color:#EFEEF3;
+text-align:left;
+}
+.postinfo a:hover
+{
+text-decoration:underline;
+color:#EFEEF3;
+}
+.postbottom
+{
+	font-size:10px;
+	color:#AC9D4A;
+	text-align:left;
+	width:640px;
+	float:none;
+	height:40px;
+	display:block;
+	padding:0;
+	position:relative;
+	/*background:url(../../images/waterfalls/post-bottom.gif) no-repeat top;*/
+}
+.postbottom a
+{
+text-decoration:none;
+color:#AC9D4A;	
+}
+.commentinf
+{
+	float:right;
+	margin-right:20px;
+	margin-top:2px;
+}
+.metainf{
+	float:left;
+	margin-left:20px;
+	margin-top:2px;
+}
+.post p {
+	margin:0px;
+}
+.navigation a {
+	color:#96A574;
+	text-decoration:none;
+}
+.navigation a:hover 
+{
+	color:#6D8735;
+}
+.navigation {
+	text-align:right;
+	font-size:12px;
+}
+img.centered {
+	display: block;
+}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left
+}
+.navigation .alignright {
+	margin-bottom:10px;
+}
+.navigation .alignleft {
+	margin-bottom:10px;
+}	
+
+.pagetitle{
+	font: bold 28px arial,verdana,sans-serif;
+	margin-top:0;	
+	margin-bottom:5px;
+	text-align:left;
+	color:#C0CB93;
+	margin-right:15px;
+	overflow:visible
+}
+#date
+{
+background:url(../../images/waterfalls/calendar.gif) no-repeat;
+float:left;
+height:59px;
+width:68px;
+margin:0px 10px 0 10px;
+}
+.month
+{
+	text-align:center;
+	font-size:12px;
+	margin:0;	
+	height:25px;
+	color:#96A574;
+	padding-top:3px;
+	height:12px;
+}
+.day
+{
+text-align:center;
+font:36px gramond, 'times new roman';
+font-weight:bold;
+color:#768D44;
+padding-top:3px;
+height:30px;
+}
+blockquote {
+	font: 11px verdana,arial,sans-serif;
+	margin:5px;
+}
+a img {
+	border:0;
+}
+.entry {
+	font: 12px arial,verdana,sans-serif;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	text-align:justify;
+	
+}
+.entrytext .postmetadata {
+	font: 12px arial,verdana,sans-serif;
+}
+.more-link {
+	font: 10px arial,verdana,sans-serif;
+}
+
+
+/* Sidebar Related */
+#sidebar {
+	width:250px;
+	margin-left:10px;
+	float:left;
+	
+}
+
+#sidebar ul {
+	margin: 0 ;
+	padding: 0;	
+	width:250px;
+	
+}
+#sidebar ul h2{
+	font:18px gramond, 'times new roman';
+	color:#8BA157;
+	text-align:left;
+	font-weight:bold;
+	font-variant:small-caps;
+	padding:10px 0 0 10px;
+	height:24px;
+	margin:0;
+	border:none;
+	margin-bottom:5px;
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin:0;
+	padding:0;
+	background:url(../../images/waterfalls/topbar.gif) no-repeat top;
+	
+}
+#sidebar ul li ul {
+	margin: 0 0 10px 0;
+	padding:0;
+}
+#sidebar ul ul li {
+	list-style-type: none;
+	margin-left:0px;
+	list-style-image: none;
+	color:#8A832C;
+	padding:5px 0 10px 20px;
+	margin-left:20px;
+	background:url(../../images/waterfalls/arrow.gif) no-repeat left;
+	
+}
+#sidebar ul ul ul li {
+	list-style-type: disc;
+	padding:0;
+	margin-left:5px;
+	color:#8A832C;	
+}
+#sidebar p {
+	margin:0;
+	font: 10px arial,verdana,sans-serif;
+}
+#sidebar a {
+	color:#A9B683;
+	text-decoration:none;	
+}
+#sidebar a:hover {
+	text-decoration:underline;	
+}
+
+
+
+/* User Comment Specific */
+#comment
+{
+border:1px solid #59702D;
+color:#24310B;
+background-color:#435A16;
+}
+#respond
+{
+	padding-left:10px;
+}
+#commentform
+{
+	padding:10px;
+
+}
+#commentform input
+{
+color:#24310B;
+background-color:#435A16;
+border:1px solid #59702D;
+}
+
+ol.commentlist {
+	margin-left:25px;
+	padding:0;
+}
+
+ol.commentlist a {
+	color:#C0CB93;	
+}
+ol.commentlist p {
+	margin-top:3px;
+	margin-bottom:10px;
+}
+small.commentmetadata {
+	font: 10px arial,verdana,sans-serif;
+}
+small.commentmetadata a {
+	text-decoration:none;
+}
+#submit {
+	height: 25px;
+	background-color: #D6E5BD;
+	margin: 10px 10px 0 0;
+	color:#2E4305;
+	font-size: 1.2em;
+
+}
+
+/************************/
+/*     Search Design    */
+/************************/
+#searchform{
+margin:0 0 10px 30px;
+}
+#s
+{
+	width:200px;
+	font:12px tahoma;
+	color:#AC6B6C;
+}
+#menu_search_box{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#825525;
+	font-size:11px;
+	float:right;
+	padding-top:45px;
+	padding-right:80px;
+	font-variant:small-caps;
+}
+
+#menu_search_box input.s{
+	width:190px;
+	font-size:11px;
+	color:#AC6B6C;
+	border:0px;
+	background:none;
+}
+
+#menu_search_box span{
+	position:relative;
+	top:-1px;
+}
+/*-------------Other------------------*/
+hr {
+	display: none;
+}
+a 
+{
+	color:#A9B683;
+}
+#wp-calendar
+{
+width:245px;
+color:#A9B683;	
+margin-left:10px;
+text-align:center;
+}
+#calendar
+{
+
+}
+td
+{
+color:#526A13;
+}
+
+.breadcrumbs {padding-left: 12px;font-size: 14px;margin-top: -15px;}
+.climate_info {padding-top: 10px;padding-left: 14px;}
+.climate_info h2 {padding-left: 10px;padding-top: 10px;margin-bottom: 5px;}
+.climate_info .common_info {padding-top: 10px;margin-bottom: 5px;font-weight: bold;}
+.climate_info .common_info h4 {margin-top: 1px;margin-bottom: 1px;}
+.period_info {padding-top: 10px;margin-bottom: 5px;}
+.period_info span {margin-right: 5px;}
+.climate_data  {margin-left: 20px;margin-top: 10px;}
+.climate_data h3 {color: #A9B683 !important;}
+.ajax_loader {padding-left: 50px;padding-top: 50px;}
+.climate_table {padding-left: 4px;}
+.climate_td {color:#BFCE92;text-align: center;font-size: 13px;}
+.hr {height: 5px;;border-top:1px solid #CBBA93;margin-top: 10px;width: 90%;}
+.table_hr {height: 2px;;border-top:1px solid #CBBA93;margin-top: 5px;width: 90%;}
